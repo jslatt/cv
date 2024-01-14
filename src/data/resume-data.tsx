@@ -110,6 +110,22 @@ export const RESUME_DATA = {
     // Add more skills as needed
   ],
   projects: [
-    // Add any relevant projects or achievements
+    {
+      title: "Consultly",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC",
+      ],
+      description: "A platform to build and grow your online business",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://consultly.com/",
+      },
+    },
   ],
 } as const;
