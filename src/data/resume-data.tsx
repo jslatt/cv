@@ -2,6 +2,7 @@ import {
   AmbitLogo,
   BarepapersLogo,
   BimLogo,
+  substackLogo,
   CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
@@ -15,9 +16,11 @@ import {
   NSNLogo,
   ParabolLogo,
   TastyCloudLogo,
+  Headshot,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { url } from "inspector";
 
 export const RESUME_DATA = {
   name: "James Slattery",
@@ -28,7 +31,7 @@ export const RESUME_DATA = {
     "MBA Candidate with a strong background in financial analytics and consulting, combining military leadership experience with business acumen",
   summary:
     "An MBA student at the University of Chicago Booth School of Business with a focus on Econometrics & Statistics and Finance. Bringing a unique blend of leadership skills honed in the United States Marine Corps Reserve and analytical capabilities developed through extensive academic and professional experiences. Skilled in data analysis, financial modeling, and strategic planning, with a proven track record in delivering actionable insights and solutions in high-pressure environments.",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGedQyfOacQ3A/profile-displayphoto-shrink_400_400/0/1702602933790?e=1710374400&v=beta&t=M2ZpOvIsCYuEk1gZuD9jffS5ZTx-P5CJ7TfKgvQvB_I", // Replace with your actual avatar URL
+  avatarUrl: "https://media.licdn.com/dms/image/D5603AQHIczJpcxeckw/profile-displayphoto-shrink_400_400/0/1705247726333?e=1710979200&v=beta&t=O2X2rO1c9kQoDa8scHWd8p9thZoBUtLRKp8O-1EQ4-s", // Replace with your actual avatar URL
   personalWebsiteUrl: "https://slatt.sh", // Replace with your actual website URL
   contact: {
     email: "j@slatt.sh",
@@ -43,6 +46,11 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://www.github.com/jslatt",
         icon: GitHubIcon,
+      },
+      {
+        name: "Substack",
+        url: "https://jslatt.substack.com/",
+        icon: XIcon
       }
       // Add more social profiles if needed
     ],
@@ -86,14 +94,14 @@ export const RESUME_DATA = {
     },
     {
       company: "S&P Dow Jones Indicies (S&P Global)",
-      link: "https://russellinvestments.com/us",
+      link: "https://www.spglobal.com/spdji/en/",
       badges: ["Internship"],
       title: "Summer Associate",
       logo: "NextGenLogo", // Replace with the actual logo
       start: "2022",
       end: "2023",
       description:
-        "Conducted extensive research on private companies to identify acquisition targets, aided in financial modeling, and provided strategic insights for acquisition processes.",
+        "In my role as Summer Associate at S&P Dow Jones Indices (S&P Global) within the Client Coverage & Wealth Channel, from June 2022 to May 2023, I spearheaded the enhancement of marketing strategies by analyzing webinar data to increase viewer retention by an estimated 12% and conversion rates by 22%. Additionally, I streamlined sales operations by digitizing over 310 legacy contracts into Salesforce, facilitating proactive account renewal and fee management.",
     }
   ],
   skills: [
@@ -111,21 +119,34 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Gaia",
       techStack: [
-        "Side Project",
-        "TypeScript",
+        "GPTv3.5",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "TailwindCSS",
+        "Tomorrow.io"
       ],
-      description: "A platform to build and grow your online business",
+      description: "This project is my submission to the 2023 Tomorrow.io Weather API Scholarship Competition.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "GitHub",
+        href: "https://github.com/jslatt/Gaia",
       },
     },
+    {
+      title: "noLibo",
+      techStack: [
+        "Meteor.js",
+        "MongoDB",
+        "Bootstrap",
+        "Barcode Scanner"
+      ],
+      description: "A Meteor.js full stack application built for inflow/outflow tracking of Marines.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "GitHub",
+        href: "https://github.com/jslatt/noLibo",
+      },
+    }
   ],
 } as const;

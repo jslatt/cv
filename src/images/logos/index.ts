@@ -15,12 +15,16 @@ import ParabolLogo from "./parabol.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
+import substackLogo from "./substack.svg"
+import Headshot from "./Headshot.png"
 
 export {
   ConsultlyLogo,
+  Headshot,
   AmbitLogo,
   BarepapersLogo,
   BimLogo,
+  substackLogo,
   CDGOLogo,
   ClevertechLogo,
   EvercastLogo,
