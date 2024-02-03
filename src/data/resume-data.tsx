@@ -78,7 +78,7 @@ export const RESUME_DATA = {
       badges: ["Military"],
       title: "Sergeant & Civil Affairs Specialist",
       logo: "USMCRLogo", 
-      start: "2018",
+      start: "2021",
       end: "2024",
       description:
         "Serving as a Civil Affairs Specialist, responsible for coordinating civil-military operations within the Indo-Pacific region and leading humanitarian operations. Managed a team of 4 Marines in a USMC innovation incubator.",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "Conducted extensive research on private companies to identify acquisition targets, aided in financial modeling, and provided strategic insights for acquisition processes.",
+        "In my role, I significantly impacted both client engagement and internal efficiencies at Russell. By analyzing the U.S. Dollar's role in the 2023 Q2 Quarterly Economic & Market Review, I equipped the sales team with crucial insights for effective client communication, directly influencing client relationship management. My comparative tax-drag analysis of Canadian fund distributions versus new Russell funds provided essential data for strategic decision-making, contributing to the refinement of our value proposition and competitive positioning. Additionally, my creation of a data pipeline with Morningstar, through the integration of their Direct's batch function with Excel automation tools, resulted in a substantial annual time saving of over 100 hours, enhancing team productivity and resource allocation.",
     },
     {
       company: "S&P Dow Jones Indicies (S&P Global)",
@@ -103,6 +103,28 @@ export const RESUME_DATA = {
       end: "2023",
       description:
         "As Summer Associate at S&P Dow Jones Indices (S&P Global) within the Client Coverage & Wealth Channel, from June 2022 to May 2023, I spearheaded the enhancement of marketing strategies by analyzing webinar data to increase viewer retention by an estimated 12% and conversion rates by 22%. Additionally, I streamlined sales operations by digitizing over 310 legacy contracts into Salesforce, facilitating proactive account renewal and fee management.",
+    },
+    {
+      company: "United States Marine Corps Reserve",
+      link: "https://www.marforres.marines.mil/", 
+      badges: ["Military"],
+      title: "SJIU Innovation Cell Project Manager",
+      logo: "USMCRLogo", 
+      start: "2020",
+      end: "2021",
+      description:
+        "Serving as a Project Manager at SJIU, I worked with small teams to build proof of concept products for the USMC. I also worked with the AFWERX SIBR/STTR award recipients to fast track sole source commerialization of key technologies. This put key technology in the hands of Marines far quicker than the traditional DOD acquisition process."
+    },
+    {
+      company: "United States Marine Corps Reserve",
+      link: "https://www.marforres.marines.mil/", 
+      badges: ["Military"],
+      title: "Food Service Specialist",
+      logo: "USMCRLogo", 
+      start: "2018",
+      end: "2020",
+      description:
+        "Serving as a Food Service Specialist, responsible for supporting operations and coordinating feeding schedules. Keeping Marines fed and ready to fight.",
     }
   ],
   skills: [
