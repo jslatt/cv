@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "In my role, I significantly impacted both client engagement and internal efficiencies at Russell. By analyzing the U.S. Dollar's role in the 2023 Q2 Quarterly Economic & Market Review, I equipped the sales team with crucial insights for effective client communication, directly influencing client relationship management. My comparative tax-drag analysis of Canadian fund distributions versus new Russell funds provided essential data for strategic decision-making, contributing to the refinement of our value proposition and competitive positioning. Additionally, my creation of a data pipeline with Morningstar, through the integration of their Direct's batch function with Excel automation tools, resulted in a substantial annual time saving of over 100 hours, enhancing team productivity and resource allocation.",
+        "I produced analysis of the U.S. Dollar in the 2023 Q2 Economic & Market Review that provided the sales team with key insights for client communication, improving client management. I also conducted a tax-drag analysis comparing Canadian and new Russell funds, aiding strategic decisions and competitive positioning and Go-To-Market Strategy. I developed a data pipeline with Morningstar, integrating Direct's batch function with Excel automation, saving over 100 hours annually, thus boosting team productivity and resource allocation.",
     },
     {
       company: "S&P Dow Jones Indicies (S&P Global)",
