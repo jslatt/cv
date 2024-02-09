@@ -47,11 +47,11 @@ export const RESUME_DATA = {
         url: "https://www.github.com/jslatt",
         icon: GitHubIcon,
       },
-      {
+      /*{
         name: "Substack",
         url: "https://jslatt.substack.com/",
         icon: XIcon
-      }
+      }*/
       // Add more social profiles if needed
     ],
   },
