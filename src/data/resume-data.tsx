@@ -34,7 +34,7 @@ export const RESUME_DATA = {
   avatarUrl: "/T_HS.png", // Replace with your actual avatar URL
   personalWebsiteUrl: "https://slatt.sh", // Replace with your actual website URL
   contact: {
-    email: "j@slatt.sh",
+    email: "j@slatt.id",
     tel: "+1 (206) 954-2184",
     social: [
       {
@@ -168,6 +168,19 @@ export const RESUME_DATA = {
       link: {
         label: "GitHub",
         href: "https://github.com/jslatt/noLibo",
+      },
+    },
+    {
+      title: "Anscombe's Quartet",
+      techStack: [
+        "Python",
+        "Regression Analysis"
+      ],
+      description: "A python notebook exploring the implications and learnings from the Anscombe Quartet data set. Work in progress.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Deepnote",
+        href: "https://deepnote.com/workspace/limbic-9371581f-98c3-465d-b24f-46fc5e9c2c9f/project/Anscombe-Quartet-c95e5720-b1ee-433a-b3d2-440d07f4439f/notebook/Main-8213059caa504240ac59ebb2fe9ea955",
       },
     }
   ],
