@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Serving as a Civil Affairs Specialist, responsible for coordinating civil-military operations within the Indo-Pacific region and leading humanitarian operations. Managed a team of 4 Marines in a USMC innovation incubator.",
+        "Serving as a Civil Affairs Specialist, responsible for coordinating civil-military operations within the Indo-Pacific region and leading humanitarian operations.",
     },
     {
       company: "Russell Investments",
@@ -182,6 +182,31 @@ export const RESUME_DATA = {
         label: "Deepnote",
         href: "https://deepnote.com/workspace/limbic-9371581f-98c3-465d-b24f-46fc5e9c2c9f/project/Anscombe-Quartet-c95e5720-b1ee-433a-b3d2-440d07f4439f/notebook/Main-8213059caa504240ac59ebb2fe9ea955",
       },
-    }
+    },
+    {
+        title: "Twonk Bot",
+        techStack: [
+          "NoseJS",
+          "Discord Bot"
+        ],
+        description: "A discord bot designed to spot price movements in a niche NFT market in order to take advantage of them before other who manually check spot prices.",
+        logo: ConsultlyLogo,
+        link: {
+          label: "Github",
+          href: "https://github.com/jslatt/twonkBot",
+        }
+    },
+    {
+      title: "Twonkaholic Dashboard",
+      techStack: [
+        "Python",
+      ],
+      description: "A python dashboard designed to analyze the Twonk NFT market and provide insights to traders as to price trends and fair value estimtes.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Deepnote",
+        href: "https://deepnote.com/@limbic/Twonk-Metrics-f7658545-2a4e-457c-9485-572c665e73dd",
+      }
+  }
   ],
 } as const;
