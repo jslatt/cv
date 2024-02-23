@@ -32,7 +32,7 @@ export const RESUME_DATA = {
   summary:
     "An MBA student at the University of Chicago Booth School of Business with a focus on Econometrics & Statistics and Finance. Bringing a unique blend of leadership skills honed in the United States Marine Corps Reserve and analytical capabilities developed through extensive academic and professional experiences. Skilled in data analysis, financial modeling, and strategic planning, with a proven track record in delivering actionable insights and solutions in high-pressure environments.",
   avatarUrl: "/T_HS.png", // Replace with your actual avatar URL
-  personalWebsiteUrl: "https://slatt.sh", // Replace with your actual website URL
+  personalWebsiteUrl: "https://slatt.id", // Replace with your actual website URL
   contact: {
     email: "j@slatt.id",
     tel: "+1 (206) 954-2184",
@@ -60,28 +60,28 @@ export const RESUME_DATA = {
       school: "The University of Chicago Booth School of Business",
       degree: "MBA with Concentrations in Econometrics & Statistics, Finance",
       start: "2023",
-      badges: ["Advanced Investments", "Data Driven Marketing", "Corporate Finance"],
+      badges: ["Advanced Investments", "Applied Regression Analysis", "Corporate Finance"],
       end: "2025",
     },
     {
       school: "The University of Chicago The College",
       degree: "Bachelor of Arts in Economics",
       start: "2021",
-      badges: ["Financial Accounting","Investments", "Econometrics"],
+      badges: ["Financial Accounting","Investments", "Econometrics","Blockchain/DeFi"],
       end: "2023",
     },
   ],
   work: [
     {
-      company: "United States Marine Corps Reserve",
-      link: "https://www.marforres.marines.mil/", 
-      badges: ["Military"],
-      title: "Sergeant & Civil Affairs Specialist",
-      logo: "USMCRLogo", 
-      start: "2021",
+      company: "NextGen Growth Partners",
+      link: "https://russellinvestments.com/us",
+      badges: ["Internship", "Part Time"],
+      title: "MBA Associate Intern",
+      logo: "NextGenLogo", 
+      start: "2024",
       end: "2024",
       description:
-        "Serving as a Civil Affairs Specialist, responsible for coordinating civil-military operations within the Indo-Pacific region and leading humanitarian operations.",
+        "Joined a search fund and aided the entrepreneur in residence with sourcing prospect deals.",
     },
     {
       company: "Russell Investments",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "I produced analysis of the U.S. Dollar in the 2023 Q2 Economic & Market Review that provided the sales team with key insights for client communication, improving client management. I also conducted a tax-drag analysis comparing Canadian and new Russell funds, aiding strategic decisions and competitive positioning and Go-To-Market Strategy. I developed a data pipeline with Morningstar, integrating Direct's batch function with Excel automation, saving over 100 hours annually, thus boosting team productivity and resource allocation.",
+        "I worked as a member on the Portfolio Consulting Group, completing two key projects over the summer. This involved a comprehensive competitor analysis of funds in Canada as well as building out an atuomated data report pipeline.",
     },
     {
       company: "S&P Dow Jones Indicies (S&P Global)",
@@ -102,7 +102,18 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2023",
       description:
-        "As Summer Associate at S&P Dow Jones Indices (S&P Global) within the Client Coverage & Wealth Channel, from June 2022 to May 2023, I spearheaded the enhancement of marketing strategies by analyzing webinar data to increase viewer retention by an estimated 12% and conversion rates by 22%. Additionally, I streamlined sales operations by digitizing over 310 legacy contracts into Salesforce, facilitating proactive account renewal and fee management.",
+        "As Summer Associate at S&P Dow Jones Indices (S&P Global) within the Wealth Channel Management team. This was a very cross functional role that worked with various teams internally.",
+    },
+    {
+      company: "United States Marine Corps Reserve",
+      link: "https://www.marforres.marines.mil/", 
+      badges: ["Military"],
+      title: "Civil Affairs Specialist",
+      logo: "USMCRLogo", 
+      start: "2021",
+      end: "2024",
+      description:
+        "Serving as a Civil Affairs Specialist, responsible for coordinating civil-military operations within the Indo-Pacific region and leading humanitarian operations.",
     },
     {
       company: "United States Marine Corps Reserve",
@@ -113,7 +124,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Serving as a Project Manager at SJIU, I worked with small teams to build proof of concept products for the USMC. I also worked with the AFWERX SIBR/STTR award recipients to fast track sole source commerialization of key technologies. This put key technology in the hands of Marines far quicker than the traditional DOD acquisition process."
+        "I worked with small teams to build proof of concept products for the USMC. I also worked with the AFWERX SIBR/STTR award recipients to fast track sole source commerialization of key technologies. This put key technology in the hands of Marines far quicker than the traditional DOD acquisition process."
     },
     {
       company: "United States Marine Corps Reserve",
