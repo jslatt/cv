@@ -218,6 +218,18 @@ export const RESUME_DATA = {
         label: "Deepnote",
         href: "https://deepnote.com/@limbic/Twonk-Metrics-f7658545-2a4e-457c-9485-572c665e73dd",
       }
-  }
+  },
+  {
+    title: "iBid Cracker",
+    techStack: [
+      "Python",
+    ],
+    description: "A python tool to view historical bid points for booth classes.",
+    logo: ConsultlyLogo,
+    link: {
+      label: "Deepnote",
+      href: "https://deepnote.com/@limbic/Twonk-Metrics-f7658545-2a4e-457c-9485-572c665e73dd",
+    }
+}
   ],
 } as const;
