@@ -228,7 +228,7 @@ export const RESUME_DATA = {
     logo: ConsultlyLogo,
     link: {
       label: "Deepnote",
-      href: "https://deepnote.com/@limbic/Twonk-Metrics-f7658545-2a4e-457c-9485-572c665e73dd",
+      href: "https://deepnote.com/workspace/Limbic-9371581f-98c3-465d-b24f-46fc5e9c2c9f/project/iBid-Craker-d3169148-d167-4543-8800-93071b050590/notebook/Main-b34f94375eab42eea8806a2c47812726",
     }
 }
   ],
