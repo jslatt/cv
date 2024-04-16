@@ -17,6 +17,7 @@ import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
 import substackLogo from "./substack.svg"
 import Headshot from "./Headshot.png"
+import Singal from "./singal.svg"
 
 export {
   ConsultlyLogo,
@@ -34,6 +35,7 @@ export {
   MonitoLogo,
   MobileVikingsLogo,
   NSNLogo,
+  Singal,
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,

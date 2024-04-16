@@ -8,6 +8,7 @@ import {
   ConsultlyLogo,
   EvercastLogo,
   Howdy,
+  Singal,
   JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
@@ -47,12 +48,11 @@ export const RESUME_DATA = {
         url: "https://www.github.com/jslatt",
         icon: GitHubIcon,
       },
-      /*{
-        name: "Substack",
-        url: "https://jslatt.substack.com/",
-        icon: XIcon
-      }*/
-      // Add more social profiles if needed
+      {
+        name: "Signal",
+        url: "https://signal.me/#eu/uvBUt0BlInrvBQw32jbx1wt0YwujzBqXVy5aq0OvRLBfRBtgp9JDTrEabnWpxX1q",
+        icon: Singal
+      }
     ],
   },
   education: [
